@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
         button.addEventListener("click", () => {
             const mode = button.dataset.mode;
             if (mode) {
-                window.location.href = `../game.html?mode=${mode}`;
+                window.location.href = `./game.html?mode=${mode}`;
             }
         });
     });
