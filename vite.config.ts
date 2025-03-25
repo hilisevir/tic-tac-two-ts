@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-    base: "/",
+    base: "/tic-tac-two-ts/",
 });
